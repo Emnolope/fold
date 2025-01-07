@@ -96,7 +96,7 @@
       const content = editor.getValue();
       try {
         localStorage.setItem('content', content);
-        console.log('Content saved:', content); // Debug log
+        //console.log('Content saved:', content); // Debug log
       } catch (e) {
         console.error('Error saving to localStorage:', e);
       }
@@ -118,4 +118,3 @@
   <script src="//cdn.jsdelivr.net/npm/eruda"></script>
   <script>eruda.init();</script>
 </body>
-
